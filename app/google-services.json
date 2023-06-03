@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234688261988",
+    "firebase_url": "https://sbitar-b7dcb-default-rtdb.firebaseio.com",
+    "project_id": "sbitar-b7dcb",
+    "storage_bucket": "sbitar-b7dcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234688261988:android:5571681a28ce6033461471",
+        "android_client_info": {
+          "package_name": "com.example.sbitar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234688261988-e6m4q9rcjfohala9ccifg9gkiq9fe8mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmLh5OQLPoz9hO2Jrvll3QRWoeh-k3xr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234688261988-e6m4q9rcjfohala9ccifg9gkiq9fe8mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

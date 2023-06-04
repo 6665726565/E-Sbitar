@@ -27,21 +27,21 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        bottomNavigationView = findViewById(R.id.btm_nav_bar);
-        bottomNavigationView.setItemIconTintList(null);
+//        bottomNavigationView = findViewById(R.id.btm_nav_bar);
+//        bottomNavigationView.setItemIconTintList(null);
 
-        menu = bottomNavigationView.getMenu();
-        homeItem = menu.findItem(R.id.item_home).setIcon(R.drawable.ic_selected_home);
+//        menu = bottomNavigationView.getMenu();
+//        homeItem = menu.findItem(R.id.item_home).setIcon(R.drawable.ic_selected_home);
 
-
-        bottomNavigationView.setSelectedItemId(R.id.item_home);
-        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                handleNavItemSelected(item);
-                return true;
-            }
-        });
+//
+//        bottomNavigationView.setSelectedItemId(R.id.item_home);
+//        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+//            @Override
+//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+//                handleNavItemSelected(item);
+//                return true;
+//            }
+//        });
 
 
 
@@ -49,21 +49,21 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
-    private void handleNavItemSelected(MenuItem item){
-        switch (item.getItemId()) {
-            case R.id.item_home:
-
-
-                replaceFragment(new HomeMaladieFragment());
-                item.setIcon(R.drawable.ic_selected_home);
-                profileItem.setIcon(R.drawable.ic_profile);
-                break;
-
-
-
-        }
-
-    }
+//    private void handleNavItemSelected(MenuItem item){
+//        switch (item.getItemId()) {
+//            case R.id.item_home:
+//
+//
+//                replaceFragment(new HomeMaladieFragment());
+//                item.setIcon(R.drawable.ic_selected_home);
+//                profileItem.setIcon(R.drawable.ic_profile);
+//                break;
+//
+//
+//
+//        }
+//
+//    }
 
     private void replaceFragment(Fragment fragment){
 

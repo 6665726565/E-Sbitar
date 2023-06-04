@@ -29,23 +29,24 @@
                 android:text="Title :"
                 android:textSize="18dp"
                 android:fontFamily="@font/poppins_bold"
-                android:textColor="@color/main_blue2"
+                android:textColor="@color/text_color"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="25dp">
 
             </TextView>
 
-            <TextView
+            <EditText
                 android:id="@+id/show_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
+                android:background="@android:color/transparent"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/text_color"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="25dp">
 
-            </TextView>
+            </EditText>
 
 
             <TextView
@@ -54,23 +55,24 @@
                 android:text="Description :"
                 android:textSize="18dp"
                 android:fontFamily="@font/poppins_bold"
-                android:textColor="@color/main_blue2"
+                android:textColor="@color/text_color"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="25dp">
 
             </TextView>
 
-            <TextView
+            <EditText
                 android:id="@+id/show_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
+                android:background="@android:color/transparent"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/text_color"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="25dp">
 
-            </TextView>
+            </EditText>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,40 +80,66 @@
                 android:text="Symptomes :"
                 android:textSize="18dp"
                 android:fontFamily="@font/poppins_bold"
-                android:textColor="@color/main_blue2"
+                android:textColor="@color/text_color"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="25dp">
 
             </TextView>
 
-            <TextView
+            <EditText
                 android:id="@+id/show_symptomes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
+                android:background="@android:color/transparent"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/text_color"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="25dp">
 
-            </TextView>
+            </EditText>
 
 
-            <Button
-                android:id="@+id/delete_btn"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="60dp"
-                android:layout_marginTop="62dp"
-                android:background="@color/error"
-                android:text="Delete"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:layout_marginBottom="20dp"
-                android:textSize="18dp">
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
 
-            </Button>
+
+                <Button
+                    android:id="@+id/modifier_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/main_blue"
+                    android:text="modifier"
+                    android:layout_marginEnd="20dp"
+                    android:padding="15dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/delete_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/error"
+                    android:text="Delete"
+                    android:padding="15dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </Button>
+
+            </LinearLayout>
+
+
 
 
         </LinearLayout>

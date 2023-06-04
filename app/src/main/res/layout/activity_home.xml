@@ -15,7 +15,7 @@
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:elevation="3dp"
-        app:layout_constraintBottom_toTopOf="@+id/btm_nav_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -30,29 +30,29 @@
     </FrameLayout>
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/btm_nav_bar"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="bottom"
-        android:background="@color/white"
-        app:itemBackground="@null"
-        app:itemIconSize="26dp"
-        app:itemRippleColor="@null"
-        app:labelVisibilityMode="labeled"
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/btm_nav_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:background="@color/white"-->
+<!--        app:itemBackground="@null"-->
+<!--        app:itemIconSize="26dp"-->
+<!--        app:itemRippleColor="@null"-->
+<!--        app:labelVisibilityMode="labeled"-->
 
-        android:animateLayoutChanges="false"
-        android:animationCache="false"
-        app:itemHorizontalTranslationEnabled="false"
-        app:itemTextColor="@color/icon_text_color"
-        android:theme="@style/ThemeOverlay.AppCompat.Light"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:itemIconTint="@color/text_color"
-        app:menu="@menu/bottom_nav_bar_items">
+<!--        android:animateLayoutChanges="false"-->
+<!--        android:animationCache="false"-->
+<!--        app:itemHorizontalTranslationEnabled="false"-->
+<!--        app:itemTextColor="@color/icon_text_color"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Light"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:itemIconTint="@color/text_color"-->
+<!--        app:menu="@menu/bottom_nav_bar_items">-->
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
 
 
 

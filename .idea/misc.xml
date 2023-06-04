@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/drawable/user_posts_shape.xml" value="0.117" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/activity_maladie_article.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/article_holder.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/E-Sbitar-final/app/src/main/res/layout/home_maladie_layout.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Sbitar/app/src/main/res/drawable-v24/ic_add_plus.xml" value="0.1335" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Sbitar/app/src/main/res/drawable-v24/ic_arrow_previous_edt_profile.xml" value="0.1335" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Sbitar/app/src/main/res/drawable-v24/ic_home.xml" value="0.1335" />

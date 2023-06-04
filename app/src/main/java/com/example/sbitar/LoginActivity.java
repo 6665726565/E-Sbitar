@@ -49,12 +49,12 @@ public class LoginActivity extends AppCompatActivity {
 
         userRef = FirebaseDatabase.getInstance().getReference().child("Users");
 
-        userNameTxt = findViewById(R.id.user_name_txt);
-        confirmPasswordTxt = findViewById(R.id.confirm_password_txt);
+//        userNameTxt = findViewById(R.id.user_name_txt);
+//        confirmPasswordTxt = findViewById(R.id.confirm_password_txt);
         forgetPasswordTxt = findViewById(R.id.forget_password_txt);
         qstTxt= findViewById(R.id.qst_text);
         choiceTxt = findViewById(R.id.choice_txt);
-        titleTxt = findViewById(R.id.title_txt);
+//        titleTxt = findViewById(R.id.title_txt);
         emailErrorTxt = findViewById(R.id.email_error_text);
         passwordErrorTxt = findViewById(R.id.password_error_text);
         confirmPasswordErrorTxt = findViewById(R.id.confirm_password_error_text);
@@ -88,13 +88,13 @@ public class LoginActivity extends AppCompatActivity {
                 if (!hasAccoount) {
 
                     choiceTxt.setText("Sign Up");
-                    titleTxt.setText("Sign in");
+//                    titleTxt.setText("Sign in");
                     qstTxt.setText("Dont you have an account");
                     forgetPasswordTxt.setVisibility(View.VISIBLE);
                     confirmPasswordInput.setVisibility(View.GONE);
                     signBtn.setText("Login");
-                    confirmPasswordTxt.setVisibility(View.GONE);
-                    userNameTxt.setVisibility(View.GONE);
+//                    confirmPasswordTxt.setVisibility(View.GONE);
+//                    userNameTxt.setVisibility(View.GONE);
                     userNameInput.setVisibility(View.GONE);
                     confirmPasswordErrorTxt.setVisibility(View.GONE);
                     passwordErrorTxt.setVisibility(View.GONE);
@@ -104,13 +104,13 @@ public class LoginActivity extends AppCompatActivity {
                     hasAccoount = true;
                 } else {
                     choiceTxt.setText("Login");
-                    titleTxt.setText("Register a new account");
+//                    titleTxt.setText("Register a new account");
                     qstTxt.setText("Already have an account ?");
                     forgetPasswordTxt.setVisibility(View.GONE);
                     confirmPasswordInput.setVisibility(View.VISIBLE);
-                    confirmPasswordTxt.setVisibility(View.VISIBLE);
+//                    confirmPasswordTxt.setVisibility(View.VISIBLE);
                     userNameInput.setVisibility(View.VISIBLE);
-                    userNameTxt.setVisibility(View.VISIBLE);
+//                    userNameTxt.setVisibility(View.VISIBLE);
                     signBtn.setText("Sign Up");
                     confirmPasswordErrorTxt.setVisibility(View.GONE);
                     passwordErrorTxt.setVisibility(View.GONE);
